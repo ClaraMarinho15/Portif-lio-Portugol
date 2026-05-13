@@ -6,7 +6,7 @@ programa {
     real media
     cadeia n
 
-    escreva ("escreva seu nome:")
+    escreva ("escreva seu nome: ")
     leia (n)
     escreva ("escreva a sua primeira nota:")
     leia (n1)
@@ -16,6 +16,7 @@ programa {
     leia (n3)
 
     media = (n1 + n2 + n3) / 3
-    escreva ("Ola ", n, ", sua media e: ", media)
+    escreva ("Aluno: ", n)
+    escreva (", Media: ", media)
   }
 }
