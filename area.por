@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+
     real h
     real l
     real a
