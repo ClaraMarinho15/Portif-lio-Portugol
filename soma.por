@@ -1,18 +1,19 @@
 programa {
   funcao inicio() {
 
-    inteiro n
-    inteiro ant
-    inteiro suc
+    inteiro n1
+    inteiro n2
+    inteiro soma
 
     escreva ("Digite um numero: ")
-    leia (n)
+    leia (n1)
+    escreva ("Digite outro numero: ")
+    leia (n2)
    
-    ant = n - 1
-    suc = n + 1
+    soma = n1 + n2
   
     
-    escreva ("O antecessor de ", n," e: ", ant, " e seu sucessor e: ", suc)
+    escreva ("A soma de ", n1," + ", n2, " e: ", soma)
 
   } 
 }
